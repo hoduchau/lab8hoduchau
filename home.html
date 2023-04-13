@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="row ">
+                    
+
+                    <div class="nav-bar px-2">
+                        <a class="logo" href="">Du Lịch Việt Nam</a>
+                        <ul id="main-menu" class="main-menu">
+                            <li><a href="#">Trang Chủ</a></li>
+                            <li><a href="#">Tin Tức</a></li>
+                            <li><a href="#">Diểm Đến</a></li>
+                            
+                            <li><a href="./product.html">Tây Nguyên</a></li>
+                            <li><a href="./contact.html">Liên hệ</a></li>
+                        </ul>
+                        <ul id="search-cart" class="search-cart">
+                            <li><a href=""><i class="bi bi-cart3"></i> CART (120.000)</a></li>
+                            <li><a href=""><i class="bi bi-search"></i></a></li>
+                        </ul>
+                        <div id="btn-toggle" class="toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+
+
+                    
+                </div>
+
+            </div>
+            <div class="slide">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                            aria-label="First slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="./image/canh-thien-nhien-viet-nam-dep 1.png" class="w-100 d-block"
+                                alt="First slide">
+                            <div class="dangky">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <input type="text" placeholder="Vị Trí" class="text-box">
+                                <i class="bi bi-calendar-day"></i>
+                                <input type="text" placeholder="Ngày Tháng" class="text-box">
+                                <div class="btn-dangky">
+                                    <a href="#">Đăng Ký Ngay</a>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Hạ Long</h3>
+                                <p>Những Ngọn Núi Sừng Sững</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/hinh-nen-phong-canh-dep-cua-viet-nam-43 1.png" class="w-100 d-block"
+                                alt="Second slide">
+                            <div class="dangky">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <input type="text" placeholder="Vị Trí" class="text-box">
+                                <i class="bi bi-calendar-day"></i>
+                                <input type="text" placeholder="Ngày Tháng" class="text-box">
+                                <div class="btn-dangky">
+                                    <a href="#">Đăng Ký Ngay</a>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Việt nam</h3>
+                                <p>lá Cờ To Lớn</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./image/Ve-dep-thien-nhien-Viet-Nam 1.png" class="w-100 d-block"
+                                alt="Third slide">
+                            <div class="dangky">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <input type="text" placeholder="Vị Trí" class="text-box">
+                                <i class="bi bi-calendar-day"></i>
+                                <input type="text" placeholder="Ngày Tháng" class="text-box">
+                                <div class="btn-dangky">
+                                    <a href="#">Đăng Ký Ngay</a>
+                                </div>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Tây Nguyên</h3>
+                                <p>Thác Nước Hùng Vĩ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- ------------------------------------------------------------------------------------------------content----------------------------------------------------- -->
+
+            <div class="content">
+                <div class="tieude">
+                    <h3>Du lịch an toàn</h3>
+                    <p>Nâng cao sức khỏe, cân bằng cuộc sống</p>
+                </div>
+                <div class="product">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 a1 mt-4">
+                            <div class="card-chinhsua1 card1 " style="width: 18rem;">
+                                <img src="./image/langman.jpg" class="card-img-top" alt="...">
+                                <div class="card-body1">
+                                    <h5 class="card-title">lãng mạn</h5>
+                                    <p class="card-text">đi khắp thế gian,
+                                        yêu thương ngập
+                                        tràn - 20 khách sạn.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 a1 mt-4">
+                            <div class=" card-chinhsua1 card1" style="width: 18rem;">
+                                <img src="./image/duxuan.jpg" class="card-img-top" alt="...">
+                                <div class="card-body1">
+                                    <h5 class="card-title">Du Xuân</h5>
+                                    <p class="card-text">Chào Năm tươi mới</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 a1 mt-4">
+                            <div class="card-chinhsua1 card1 " style="width: 18rem;">
+                                <img src="./image/teambuild.jpg" class="card-img-top" alt="...">
+                                <div class="card-body1">
+                                    <h5 class="card-title">team building</h5>
+                                    <p class="card-text">ưu đãi dành cho đoàn</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 a1 mt-4">
+                            <div class="card-chinhsua1 card1 " style="width: 18rem;">
+                                <img src="./image/gift_vourcher.jpg" class="card-img-top" alt="...">
+                                <div class="card-body1">
+                                    <h5 class="card-title">Gif Voucher</h5>
+                                    <p class="card-text">Lưu giữ khoảng khắc, trải nhiệm hành trình</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content2">
+                <div class="tieude">
+                    <h3>Điểm đến yêu thích trong nước</h3>
+                    <p>Lên rừng xuống biển. Trọn vẹn Việt Nam</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="box2"><img src="./image/phuquoc-show-755x190 (1).png" alt="" width="100%"
+                                        height="100%">
+                                    <div class="box-text">
+                                        <h4>Phú Quốc</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box3a"><img src="./image/dalat-show-370x190 (1).png" alt="" width="100%"
+                                        height="100%">
+                                    <div class="box-text">
+                                        <h4>Dà Lạt</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-6">
+                                <div class="box3b"><img src="./image/quynhon-show-370x190 (1).png" alt="" width="100%"
+                                        height="100%">
+                                    <div class="box-text">
+                                        <h4>Quy Nhơn</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="box1"><img src="./image/vungtau-show-370x395 (1).png" alt="" width="100%"
+                                height="100%">
+                            <div class="box-text">
+                                <h4>Vũng Tàu</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="row mt-4">
+                    <div class="col-4">
+                        <div class="box1"><img src="./image/nhatrang-show-370x395 (1).png" alt="" width="100%"
+                                height="100%">
+                            <div class="box-text">
+                                <h4>Nha Trang</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="box2"><img src="./image/danang-show-755x190.png" alt="" width="100%"
+                                        height="100%">
+                                    <div class="box-text">
+                                        <h4>Đà Nẵng</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="box3a"><img src="./image/phanthiet-show-370x190 (1).png" alt="" width="100%"
+                                        height="100%">
+                                    <div class="box-text">
+                                        <h4>Phan Thiết</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-6">
+                                <div class="box3b"><img src="./image/phuyen-show-370x190 (1).png" alt="" width="100%"
+                                        height="100%">
+                                    <div class="box-text">
+                                        <h4>Phú Yên</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="content3">
+                <div class="tieude">
+                    <h3>Tour Nội Địa Cao Cấp</h3>
+                    <p>Văn Hóa Đặc Sắc, Thiên Nhiên Bất Tận</p>
+                </div>
+                <div class="products">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 a1">
+                            <div class="card card-chinhsua2" style="max-width: 28rem; height: 400px;">
+                                <img src="./image/dalat-show-370x190 (1).png" class="card-img-top" alt="...">
+                                <div class="card-body card-body-chinhsua2">
+                                    <p class="card-text">Tour Cao Cấp Đà Lạt 3N3Đ:
+                                        Khu Giải Trí Wonderland
+                                        - Wonder Resort 4 Sao</p>
+                                    <div class="rate">
+                                        <p><i class="bi bi-calendar-check-fill"></i>3 Ngày 3 Đêm</p>
+                                        <div class="rate-number"><a href="#">9<i class="bi bi-star-fill"></i></a></div>
+                                        <p class="rate-hr">Đánh giá</p>
+                                    </div>
+                                    <div class="rate-sale">
+                                        <p>4.990.000VND</p>
+                                        <a href="#"></a>
+                                    </div>
+
+                                    <p>3.090.000 VND</p>
+                                    <div class="button">
+                                        <a href="#" class="btn btn-primary">Đặt Tours</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 a1">
+                            <div class="card card-chinhsua2" style="width: 30rem; height: 400px;">
+                                <img src="./image/phanthiet-show-370x190 (1).png" class="card-img-top" alt="...">
+                                <div class="card-body card-body-chinhsua2">
+                                    <p class="card-text">Tour Cao Cấp Phan Thiết 3N3Đ:
+                                        Khu Giải Trí Wonderland
+                                        - Wonder Resort 4 Sao</p>
+                                    <div class="rate">
+                                        <p><i class="bi bi-calendar-check-fill"></i>3 Ngày 3 Đêm</p>
+                                        <div class="rate-number"><a href="#">9.2<i class="bi bi-star-fill"></i></a></div>
+                                        <p class="rate-hr">Đánh giá</p>
+                                    </div>
+                                    <div class="rate-sale">
+                                        <p>5.990.000VND</p>
+                                        <a href="#"></a>
+                                    </div>
+
+                                    <p>4.090.000 VND</p>
+                                    <div class="button">
+                                        <a href="#" class="btn btn-primary">Đặt Tours</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 a1">
+                            <div class="card card-chinhsua2" style="width: 30rem; height: 400px;">
+                                <img src="./image/quynhon-show-370x190 (1).png" class="card-img-top" alt="..." >
+                                <div class="card-body card-body-chinhsua2">
+                                    <p class="card-text">Tour Cao Đà Nẵng 3N3Đ:
+                                        Khu Giải Trí Wonderland
+                                        - Wonder Resort 4 Sao</p>
+                                    <div class="rate">
+                                        <p><i class="bi bi-calendar-check-fill"></i>3 Ngày 3 Đêm</p>
+                                        <div class="rate-number"><a href="#">9.6<i class="bi bi-star-fill"></i></a></div>
+                                        <p class="rate-hr">Đánh giá</p>
+                                    </div>
+                                    <div class="rate-sale">
+                                        <p>6.990.000VND</p>
+                                        <a href="#"></a>
+                                    </div>
+
+                                    <p>5.590.000 VND</p>
+                                    <div class="button">
+                                        <a href="#" class="btn btn-primary">Đặt Tours</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="row mt-4">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 a1">
+                            <div class="card card-chinhsua2" style="width: 30rem; height: 400px;">
+                                <img src="./image/phuyen-show-370x190 (1).png" class="card-img-top" alt="...">
+                                <div class="card-body card-body-chinhsua2">
+                                    <p class="card-text">Tour Cao Cấp Quy Nhơn 3N3Đ:
+                                        Khu Giải Trí Wonderland
+                                        - Wonder Resort 4 Sao</p>
+                                    <div class="rate">
+                                        <p><i class="bi bi-calendar-check-fill"></i>3 Ngày 3 Đêm</p>
+                                        <div class="rate-number"><a href="#">8.9<i class="bi bi-star-fill"></i></a></div>
+                                        <p class="rate-hr">Đánh giá</p>
+                                    </div>
+                                    <div class="rate-sale">
+                                        <p>4.990.000VND</p>
+                                        <a href="#"></a>
+                                    </div>
+
+                                    <p>3.090.000 VND</p>
+                                    <div class="button">
+                                        <a href="#" class="btn btn-primary">Đặt Tours</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 a1">
+                            <div class="card card-chinhsua2" style="width: 30rem; height: 400px;">
+                                <img src="./image/quynhon-show-370x190 (1).png" class="card-img-top" alt="..." >
+                                <div class="card-body card-body-chinhsua2">
+                                    <p class="card-text">Tour Cao Đà Nẵng 3N3Đ:
+                                        Khu Giải Trí Wonderland
+                                        - Wonder Resort 4 Sao</p>
+                                    <div class="rate">
+                                        <p><i class="bi bi-calendar-check-fill"></i>3 Ngày 3 Đêm</p>
+                                        <div class="rate-number"><a href="#">9.6<i class="bi bi-star-fill"></i></a></div>
+                                        <p class="rate-hr">Đánh giá</p>
+                                    </div>
+                                    <div class="rate-sale">
+                                        <p>6.990.000VND</p>
+                                        <a href="#"></a>
+                                    </div>
+
+                                    <p>5.590.000 VND</p>
+                                    <div class="button">
+                                        <a href="#" class="btn btn-primary">Đặt Tours</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 a1">
+                            <div class="card card-chinhsua2" style="width: 30rem; height: 400px;">
+                                <img src="./image/dalat-show-370x190 (1).png" class="card-img-top" alt="...">
+                                <div class="card-body card-body-chinhsua2">
+                                    <p class="card-text">Tour Cao Cấp Đà Lạt 3N3Đ:
+                                        Khu Giải Trí Wonderland
+                                        - Wonder Resort 4 Sao</p>
+                                    <div class="rate">
+                                        <p><i class="bi bi-calendar-check-fill"></i>3 Ngày 3 Đêm</p>
+                                        <div class="rate-number"><a href="#">9<i class="bi bi-star-fill"></i></a></div>
+                                        <p class="rate-hr">Đánh giá</p>
+                                    </div>
+                                    <div class="rate-sale">
+                                        <p>4.990.000VND</p>
+                                        <a href="#"></a>
+                                    </div>
+
+                                    <p>3.090.000 VND</p>
+                                    <div class="button">
+                                        <a href="#" class="btn btn-primary">Đặt Tours</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-more">
+                    <a href="#">Xem Them Tours</a>
+                </div>
+
+
+            </div>
+
+<!-- ---------------------------------------------------------------------------------------footer---------------------------------------------------- -->
+            <div class="footer">
+                <div class="row">
+                    <div class="col-md-12 col-lg-8 call1 mt-4">
+                        <h5>DKKD: 0312788481, Ngày cấp: 21/05/2014, Sở kế hoạch đầu tư thành phố Hồ Chí Minh</h5>
+                        <p><i class="bi bi-geo-alt-fill"></i>HCM: Tầng 5, Tòa nhà Anh Đăng, 215 Nam Kỳ Khởi Nghĩa, Phường 7, Quận 3, Tp. Hồ Chí Minh <br>
+                            <i class="bi bi-geo-alt-fill"></i>HN: P308, Tầng 3, tòa nhà The One, số 2 Chương Dương Độ, P.Chương Dương, Q.Hoàn Kiếm, Hà Nội <br>
+                            <i class="bi bi-geo-alt-fill"></i>Cần Thơ: Tầng 7 - Tòa nhà STS - 11B Đại Lộ Hòa Bình, P. Tân An, Q. Ninh Kiều, TP. Cần Thơ.</p>
+                    </div>
+                    <div class="col-md-12  col-lg-4 call2 mt-4">
+                        <h5>Bạn cần trợ giúp? Hãy gọi ngay</h5>
+                        <p><i class="bi bi-telephone-fill"></i>CSKH: (028) 3933 8002</p>
+                        <p><i class="bi bi-telephone-fill"></i>Hotline: 0906 355 542</p>
+                        <p><i class="bi bi-alarm"></i>Từ 7h30 - 21h hằng ngày</p>
+                        <p>Kết nối với iVIVU <br> <i class="bi bi-facebook"></i><i class="bi bi-instagram"></i><i class="bi bi-messenger"></i></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    <script src="./js/home.js"></script>
+</body>
+
+</html>

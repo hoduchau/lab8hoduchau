@@ -1,0 +1,770 @@
+/* *{
+    padding: 0;
+    margin: 0;
+
+} */
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.header{
+    /* height: 80px; */
+    
+}
+
+
+
+
+
+
+
+ul{
+    margin: 0 !important;
+}
+a{
+    text-decoration: none !important;
+}
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4DB779;
+    flex-direction: row;
+}
+.top-bar-left{
+    display: flex;
+}
+.top-bar-right{
+    display: flex;
+}
+.top-bar-left>a{
+    display: block;
+    padding: 8px 8px;
+    color: #fff;
+    font-size: 0.75em;
+}
+.top-bar-right>a{
+    display: block;
+    padding: 8px 8px;
+    color: #fff;
+    font-size: 0.75em;
+}
+.top-bar-left>a:hover{
+    color: #FFC700;
+}
+.top-bar-right>a:hover{
+    color: #FFC700;
+}
+
+.logo{
+    display: block;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 900;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4EC67F;
+    align-items: center;
+    position: relative;
+}
+.main-menu>li>a{
+    display: block;
+    color: #fff;
+    padding: 12px 8px;
+}
+.main-menu>li>a:hover{
+    background-color: #38AF69;
+}
+.search-cart>li>a{
+    display: block;
+    color: #fff;
+    padding: 12px 8px;
+}
+.search-cart>li>a:hover{
+    background-color: #38AF69;
+}
+.main-menu{
+    display: flex;
+}
+.search-cart{
+    display: flex;
+}
+.toggle{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 0.6em;
+    background-color: rgb(11, 11, 11);
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.toggle>span{
+    height: 2.5px;
+    width: 20px;
+    margin: 2px;
+    border: 5px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+/* .logo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.logo-icon{
+    width: 70px ;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(88, 88, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    
+    
+}
+.logo-icon>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#menu{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    
+}
+#menu>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    color: white;
+    font-size: 1.25em;
+}
+#menu>li>a:hover{
+    color: blue;
+    background-color: rgba(220, 212, 212, 0.403);
+}
+
+.search{
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+.search>a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.25em;
+}
+.search>a:hover{
+    color: rgb(14, 93, 14);
+}
+.narbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    height: auto;
+    background-color: rgb(72, 184, 20);
+}
+.btn-toggle{
+    
+    display: flex;
+    
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    padding: 5px;
+    top: 20px;
+    right: 30px;
+    display: none;
+}
+.btn-toggle>span{
+    height: 3px;
+    margin: 3px;
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 5px;
+} */
+
+
+/* ---------------------slide----------------------------------------------------------------------------- */
+
+.slide{
+    margin-top: 24px;
+    position: relative;
+}
+.dangky{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: rgba(255, 228, 196, 0.756);
+    border-radius: 10px;
+
+}
+.dangky>i{
+    font-size: 20px;
+}
+.text-box{
+    border-radius: 5px;
+    max-width: 250px;
+    margin-top: 10px;
+}
+.btn-dangky{
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.btn-dangky>a{
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+
+    border-radius: 10px;
+}
+.btn-dangky>a:hover{
+    
+    background-color: orange;
+    color: black;
+    
+    
+}
+
+
+/* --------------------------------content-------------------------------------------------------------------------------- */
+
+.card1{
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+.card1>img{
+    height: 250px;
+}
+.card-body1>h5{
+    padding: 10px 10px;
+}
+.card-body1>p{
+    padding: 0px 10px;
+}
+.content{
+    
+    max-width: 1400px;
+    height: auto;
+    /* margin: 0 auto; */
+}
+.product{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.tieude{
+    margin-top: 32px;
+    margin-left: 20px;
+    
+    height: auto;
+}
+.card>img{
+    height: 300px;
+}
+.card-body{
+    height: 120px;
+}
+.card-chinhsua1{
+    margin: 0 auto;
+    max-width: 280px;
+
+}
+/* .a1{
+    padding: 8px 8px;
+    margin: 0 auto;
+} */
+.box1{
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+}
+.box2{
+    height: 190px;
+    margin-bottom: 20px;
+    background-color: bisque;
+    position: relative;
+}
+.box3a{
+    height: 190px;
+    
+    background-color: black;
+    position: relative;
+    
+}
+.box3b{
+    height: 190px;
+    
+    background-color: black;
+    position: relative;
+    
+}
+.box-text{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: white;
+}
+
+/* --------------------------------------------------------content 3--------------------------------------------------- */
+
+.card{
+    margin: 0 auto;
+}
+.products{
+    max-width: 1400px;
+}
+.card-chinhsua2{
+    max-width: 400px;
+    height: auto;
+}
+.card-body-chinhsua2{
+    height: 350px;
+}
+.card-body-chinhsua2{
+    position: relative;
+}
+.button{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+.button>a:hover{
+    color: black;
+    background-color: aqua;
+}
+.rate{
+    display: flex;
+    flex-direction: row;
+}
+.rate>p>i{
+    padding-right: 10px;
+}
+.rate-number{
+    padding: 0px 10px;
+    position: absolute;
+    bottom: 110px;
+    right: 85px;
+}
+.rate-number>a>i{
+    color: yellow;
+    padding-left: 2px;
+}
+
+.rate-number>a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    background-color: rgb(22, 148, 10);
+    border-radius: 10px;
+    color: yellow;
+}
+.rate-hr{
+    border-left: 1px solid black;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 95px;
+    right: 10px;
+}
+.rate-sale>p{
+    display: flex;
+    text-decoration: line-through;
+    color: black;
+}
+
+.btn-more{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-more>a{
+    padding: 10px 10px;
+    background-color: gray;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.btn-more>a:hover{
+    background-color: greenyellow;
+}
+
+
+
+
+/* ----------------------------------------------footer-------------------------------------------- */
+
+.call1>p>i{
+padding: 0px 10px;
+font-size: 18px;
+}
+.call2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.call2>p>i{
+    padding: 0px 10px;
+    font-size: 18px;
+    }
+@media (max-width: 1399.98px) { 
+    
+    .card{
+        max-width: 350px;
+    }
+ }
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+    .product{
+        max-width: 1000px;
+    }
+    .card1{
+        max-width: 220px;
+    }
+    .card{
+        max-width: 300px;
+    }
+    
+    /* .card-body-chinhsua2{
+        width: 280px;
+    } */
+ }
+ /* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .card{
+        max-width: 330px;
+        margin-bottom: 20px;
+    }
+    .card1{
+        max-width: 350px;
+    }
+    .none{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .container{
+        max-width: 768px !important;
+    }
+    .top-bar{
+        flex-direction: column;
+    }
+    .top-bar-left{
+        justify-content: center;
+    }
+    .top-bar-right{
+        justify-content: center;
+    }
+    .top-bar-left>a{
+        padding: 4px 4px;
+    }
+    .top-bar-right>a{
+        padding: 4px 4px;
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+    .main-menu{
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+    .search-cart{
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+    .logo{
+        width: 100%;
+    }
+    .toggle{
+        display: flex;
+    }
+    .active{
+        display: flex !important;
+    }
+
+
+
+ }
+ /* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+
+
+
+
+
+
+
+    .dangky{
+        top: 30px;
+        left: 30px;
+       
+    }
+    .call1{
+        display: none;
+    }
+    .call2{
+        margin: 0 auto;
+    }
+    .none{
+        display: flex;
+    }
+    .card{
+        max-width: 340px;
+        margin-bottom: 20px;
+    }
+    .carousel-item{
+        height: 300px;
+    }
+
+    .card-chinhsua1{
+        max-width: 400px;
+    }
+    .narbar{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .logo{
+        margin-right: 400px;
+    }
+    .search{
+        margin-left: 450px;
+    } */
+    #menu{
+        padding: 8px 8px;
+        margin: 0;
+        display:none;
+        justify-content: left;
+        height: auto;
+        flex-direction: column;
+        /* position: absolute; */
+        top: 70px;
+        left: 0px;
+        background-color: green;
+        width: 100%;
+        z-index: 1;
+        
+
+    }
+    .logo-icon{
+        margin: 0;
+    }
+    #menu>li>a{
+        display: flex;
+        padding: 8px;    
+    }
+    .btn-toggle{
+        display: flex;
+    }
+    .search{
+        margin-right: 100px;
+    }
+    .active{
+        display: flex  !important;
+    }
+    .box1{
+        height: 280px;
+        background-color: aqua;
+        position: relative;
+    }
+    .box2{
+        height: 130px;
+        margin-bottom: 20px;
+        background-color: bisque;
+        position: relative;
+    }
+    .box3a{
+        height: 130px;
+        
+        background-color: black;
+        position: relative;
+        
+    }
+    .box3b{
+        height: 130px;
+        
+        background-color: black;
+        position: relative;
+        
+    }
+    .box-text{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+    }
+
+
+
+
+
+    .nav-bar{
+        flex-direction: column;
+    }
+    .main-menu{
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+    .search-cart{
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+    .logo{
+        width: 100%;
+    }
+    .toggle{
+        display: flex;
+    }
+    .active{
+        display: flex !important;
+    }
+
+
+
+
+
+
+
+
+
+ }
+
+@media (max-width: 575.98px) { 
+    
+    .dangky{
+        top: 30px;
+        left: 30px;
+       
+    }
+
+    .box1{
+        height: 240px;
+        background-color: aqua;
+        position: relative;
+    }
+    .box2{
+        height: 110px;
+        margin-bottom: 20px;
+        background-color: bisque;
+        position: relative;
+    }
+    .box3a{
+        height: 110px;
+        
+        background-color: black;
+        position: relative;
+        
+    }
+    .box3b{
+        height: 110px;
+        
+        background-color: black;
+        position: relative;
+        
+    }
+
+
+
+
+    .card-chinhsua1{
+        max-width: 260px;
+    }
+    .card{
+        max-width: 280px;
+    }
+    .rate{
+        display: flex;
+        flex-direction: row;
+    }
+    .rate>p>i{
+        padding-right: 5px;
+    }
+    .rate-number{
+        padding: 0px 5px;
+        position: absolute;
+        bottom: 110px;
+        right: 75px;
+    }
+    .rate-number>a>i{
+        color: yellow;
+        padding-left: 2px;
+    }
+    
+    .rate-number>a{
+        text-decoration: none;
+        padding: 10px 5px;
+        color: black;
+        background-color: rgb(22, 148, 10);
+        border-radius: 10px;
+        color: yellow;
+    }
+    .rate-hr{
+        border-left: 1px solid black;
+        padding-left: 10px;
+        position: absolute;
+        bottom: 95px;
+        right: 0px;
+    }
+    .rate-sale>p{
+        display: flex;
+        text-decoration: line-through;
+        color: black;
+    }
+    
+    .btn-more{
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button{
+        position: absolute;
+        bottom: 40px;
+        right: 20px;
+    }
+ }

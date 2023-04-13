@@ -1,0 +1,740 @@
+/* *{
+    padding: 0;
+    margin: 0;
+
+} */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    /* height: 80px; */
+
+}
+
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+}
+.content{
+    margin: 0 auto;
+}
+.gioithieu{
+    height: 80px;
+    background-color:rgb(201, 230, 230) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.card-body>h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.card-body{
+    height: 200px;
+}
+.product>a{
+    color: black;
+}
+.product>a:hover{
+    color: white;
+}
+.product>a>.card:hover{
+    background-color: rgb(162, 160, 160);
+    color: white;
+}
+
+
+.homestay>a{
+    color: black;
+}
+.homestay>a:hover{
+    background-color: #4EC67F;
+    color: black;
+}
+.homestay>a>.homestay-picture:hover{
+    background-color: rgb(249, 242, 203);
+    /* color: white; */
+}
+.homestay-picture>.card-body>p{
+    font-size: 18px;
+}
+.card-body>p{
+    margin-left: 10px;
+}
+.card-body>span{
+    margin-left: 10px;
+}
+.homestay-picture{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.rate-btn{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.rate-btn>p{
+    padding: 20px 20px;
+    background-color: rgb(33, 137, 33);
+    font-size: 19px;
+    color: yellow;
+    border-radius: 10px;
+    
+    
+}
+.card-body-checkin{
+    position: relative;
+}
+.btn-them{
+    position: absolute;
+    bottom: 80px;
+    right: 40px;
+    
+}
+.btn-them>a{
+    color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    background-color: rgb(43, 31, 31);
+}
+.btn-them>a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(146, 146, 146);
+}
+.checkin-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkin-picture>img{
+    max-width: 350px;
+    margin-bottom: 20px;
+    
+}
+.card-body-checkin{
+    height: auto;
+}
+.i{
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    margin: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4DB779;
+    flex-direction: row;
+}
+
+.top-bar-left {
+    display: flex;
+}
+
+.top-bar-right {
+    display: flex;
+}
+
+.top-bar-left>a {
+    display: block;
+    padding: 8px 8px;
+    color: #fff;
+    font-size: 0.75em;
+}
+
+.top-bar-right>a {
+    display: block;
+    padding: 8px 8px;
+    color: #fff;
+    font-size: 0.75em;
+}
+
+.top-bar-left>a:hover {
+    color: #FFC700;
+}
+
+.top-bar-right>a:hover {
+    color: #FFC700;
+}
+
+.logo {
+    display: block;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4EC67F;
+    align-items: center;
+    position: relative;
+}
+
+.main-menu>li>a {
+    display: block;
+    color: #fff;
+    padding: 12px 8px;
+}
+
+.main-menu>li>a:hover {
+    background-color: #38AF69;
+}
+
+.search-cart>li>a {
+    display: block;
+    color: #fff;
+    padding: 12px 8px;
+}
+
+.search-cart>li>a:hover {
+    background-color: #38AF69;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.search-cart {
+    display: flex;
+}
+
+.toggle {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 0.6em;
+    background-color: rgb(11, 11, 11);
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.toggle>span {
+    height: 2.5px;
+    width: 20px;
+    margin: 2px;
+    border: 5px;
+    background-color: #fff;
+}
+
+.slide {
+    margin-top: 24px;
+    position: relative;
+}
+
+.dangky {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: rgba(255, 228, 196, 0.756);
+    border-radius: 10px;
+
+}
+
+.dangky>i {
+    font-size: 20px;
+}
+
+.text-box {
+    border-radius: 5px;
+    max-width: 250px;
+    margin-top: 10px;
+}
+
+.btn-dangky {
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.btn-dangky>a {
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+
+    border-radius: 10px;
+}
+
+.btn-dangky>a:hover {
+
+    background-color: orange;
+    color: black;
+
+
+}
+
+
+
+/* ----------------------------------------------footer-------------------------------------------- */
+
+.call1>p>i {
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+.call2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.call2>p>i {
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 1399.98px) {
+    .card-height{
+        height: 270px;
+    }
+    .card {
+        max-width: 270px;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    /* .product {
+        max-width: 1000px;
+    } */
+
+    /* .card1 {
+        max-width: 220px;
+    } */
+
+    .card {
+        max-width: 220px;
+    }
+
+    /* .card-body-chinhsua2{
+                width: 280px;
+            } */
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+     .card {
+        max-width: 330px;
+        margin-bottom: 20px;
+    }
+
+    .card1 {
+        max-width: 350px;
+    } 
+
+    .none {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .container {
+        max-width: 768px !important;
+    }
+
+    .top-bar {
+        flex-direction: column;
+    }
+
+    .top-bar-left {
+        justify-content: center;
+    }
+
+    .top-bar-right {
+        justify-content: center;
+    }
+
+    .top-bar-left>a {
+        padding: 4px 4px;
+    }
+
+    .top-bar-right>a {
+        padding: 4px 4px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .search-cart {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .toggle {
+        display: flex;
+    }
+
+    .active {
+        display: flex !important;
+    }
+
+
+
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+
+
+
+
+
+
+
+    .dangky {
+        top: 30px;
+        left: 30px;
+
+    }
+
+    .call1 {
+        display: none;
+    }
+
+    .call2 {
+        margin: 0 auto;
+    }
+
+    .none {
+        display: flex;
+    }
+
+    .card {
+        max-width: 340px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-item {
+        height: 300px;
+    }
+
+    .card-chinhsua1 {
+        max-width: 400px;
+    }
+
+    .narbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .logo{
+                margin-right: 400px;
+            }
+            .search{
+                margin-left: 450px;
+            } */
+    #menu {
+        padding: 8px 8px;
+        margin: 0;
+        display: none;
+        justify-content: left;
+        height: auto;
+        flex-direction: column;
+        /* position: absolute; */
+        top: 70px;
+        left: 0px;
+        background-color: green;
+        width: 100%;
+        z-index: 1;
+
+
+    }
+
+    .logo-icon {
+        margin: 0;
+    }
+
+    #menu>li>a {
+        display: flex;
+        padding: 8px;
+    }
+
+    .btn-toggle {
+        display: flex;
+    }
+
+    .search {
+        margin-right: 100px;
+    }
+
+    .active {
+        display: flex !important;
+    }
+
+    .box1 {
+        height: 280px;
+        background-color: aqua;
+        position: relative;
+    }
+
+    .box2 {
+        height: 130px;
+        margin-bottom: 20px;
+        background-color: bisque;
+        position: relative;
+    }
+
+    .box3a {
+        height: 130px;
+
+        background-color: black;
+        position: relative;
+
+    }
+
+    .box3b {
+        height: 130px;
+
+        background-color: black;
+        position: relative;
+
+    }
+
+    .box-text {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+    }
+
+
+
+
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .search-cart {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .toggle {
+        display: flex;
+    }
+
+    .active {
+        display: flex !important;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 575.98px) {
+    .card-height{
+        height: 350px;
+    }
+
+    .dangky {
+        top: 30px;
+        left: 30px;
+
+    }
+
+    .box1 {
+        height: 240px;
+        background-color: aqua;
+        position: relative;
+    }
+
+    .box2 {
+        height: 110px;
+        margin-bottom: 20px;
+        background-color: bisque;
+        position: relative;
+    }
+
+    .box3a {
+        height: 110px;
+
+        background-color: black;
+        position: relative;
+
+    }
+
+    .box3b {
+        height: 110px;
+
+        background-color: black;
+        position: relative;
+
+    }
+
+
+
+
+    .card-chinhsua1 {
+        max-width: 260px;
+    }
+
+    .card {
+        max-width: 280px;
+    }
+
+    .rate {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rate>p>i {
+        padding-right: 5px;
+    }
+
+    .rate-number {
+        padding: 0px 5px;
+        position: absolute;
+        bottom: 110px;
+        right: 75px;
+    }
+
+    .rate-number>a>i {
+        color: yellow;
+        padding-left: 2px;
+    }
+
+    .rate-number>a {
+        text-decoration: none;
+        padding: 10px 5px;
+        color: black;
+        background-color: rgb(22, 148, 10);
+        border-radius: 10px;
+        color: yellow;
+    }
+
+    .rate-hr {
+        border-left: 1px solid black;
+        padding-left: 10px;
+        position: absolute;
+        bottom: 95px;
+        right: 0px;
+    }
+
+    .rate-sale>p {
+        display: flex;
+        text-decoration: line-through;
+        color: black;
+    }
+
+    .btn-more {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        position: absolute;
+        bottom: 40px;
+        right: 20px;
+    }
+}
